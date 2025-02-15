@@ -10,6 +10,7 @@
 	  } catch (err) {
 	    logger.error("getPricesHistory error", { err });
 	  }
+	  return data;
 	};
-	
+
 })()
