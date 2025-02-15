@@ -12,5 +12,5 @@
 	    logger.error("getPricesHistory error", { err });
 	  }
 	};
-
+	getPricesHistory();
 })()
