@@ -7,6 +7,7 @@
 	        await axios.get(
 				'https://api.coingecko.com/api/v3/coins/usd-coin/market_chart?vs_currency=usd&days=1CG-piYAkfuLU4agtL2vEyUqRiP5'
 	        );
+	        console.log('1111111', data.data.prices[0], data.data.prices[0].value);
 		return console.log('1111111', data.data.prices);
 	//   } catch (err) {
 	//     logger.error("getPricesHistory error", { err });
