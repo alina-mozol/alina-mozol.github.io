@@ -3,7 +3,7 @@ import axios from "axios";
 (()=> {
 	console.log(123);
 
-	function getPricesHistory () {
+	async function getPricesHistory () {
 		// Promise<[number, number][]> => {
 	  // let res: [number, number][] = [];
 
