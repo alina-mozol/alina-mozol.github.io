@@ -3,13 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<!-- Web3 -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <!-- D3 -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<title></title>
 </head>
 <body>
-	<p>Test</p>
-	<!-- https://api.coingecko.com/api/v3/coins/usd-coin/market_chart?vs_currency=usd&days=1CG-piYAkfuLU4agtL2vEyUqRiP5 -->
+	<h1>Prices</h1>
+	<div class="parentDiv"></div>
+	<h1>Pool Balances</h1>
+	<div class="parentDiv"></div>
 </body>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script type="text/javascript" src="./index.js"></script>
+<script type="text/javascript" src="./prices.js"></script>
+<script type="text/javascript" src="./liquidityPools.js"></script>
 </html>
