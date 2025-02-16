@@ -74,21 +74,22 @@
         parentDiv.appendChild(initialPoolBalance);
 	}
 
-	getPoolBalance(
-		'ethereum',
-		'staked-ether',
-		'Pancake',
-		'0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-		'0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
-		'0x3a1b97Fc25fA45832F588ED3bFb2A0f74ddBD4F8'
-	);
+	// getPoolBalance(
+	// 	'ethereum',
+	// 	'staked-ether',
+	// 	'Pancake',
+	// 	'0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+	// 	'0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
+	// 	'0x3a1b97Fc25fA45832F588ED3bFb2A0f74ddBD4F8'
+	// );
 
-	getPoolBalance(
-		'ethereum',
-		'staked-ether',
-		'Curve',
-		'0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-		'0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84',
-		'0x21E27a5E5513D6e65C4f830167390997aA84843a'
-	);
+	// getPoolBalance(
+	// 	'ethereum',
+	// 	'staked-ether',
+	// 	'Curve',
+	// 	'0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+	// 	'0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84',
+	// 	'0x21E27a5E5513D6e65C4f830167390997aA84843a'
+	// );
+	console.log(555, PRI)
 })()
